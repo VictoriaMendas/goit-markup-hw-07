@@ -28,10 +28,28 @@ ul {
   padding: 0;
 }
 .conteiner {
-  width: 1158px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+} 
+@media screen and (min-width: 480px){
+  .conteiner {
+      width:458px;
+      margin-left: auto;
+      margin-right: auto;
+  }
 }
+@media screen and (min-width: 768px){
+  .conteiner {
+      width:738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .conteiner {
+      width: 1440px;
+  }
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -78,7 +96,7 @@ body {
 }
 /*------Head------*/
 .header {
-  padding: 24px 156px;
+  /* padding: 24px 156px; */
   display: flex;
   border-bottom: solid 1px var(--fourdary-title-color);
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

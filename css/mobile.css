@@ -1,0 +1,9 @@
+ @media screen and (max-width: 768px) {
+    .header-flex {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: none;
+    }
+ }
