@@ -1,9 +1,31 @@
- @media screen and (max-width: 768px) {
+
+  @media screen and (max-width: 767px) {
     .header-flex {
         display: none;
     }
-
-    .mobile-menu-icon {
-        display: none;
+}
+    .mobile-menu-open {
+      border: none;
+      background: transparent;
+       line-height: 0;
+width: 32px;
+height: 22px;
+margin-left: 249px;
+padding-bottom: 24px;
+padding-right: 16px;
     }
- }
+ 
+    @media screen and (min-width: 768px) {
+        .mobile-menu-open {
+          display: none;
+          
+        }
+      }
+    
+   .header-shine {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: absolute;
+   }

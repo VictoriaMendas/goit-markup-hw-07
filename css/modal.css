@@ -1,0 +1,26 @@
+.mobile-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #F4F4FD;
+}
+.mobile-menu-close-btn {
+     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: var(--fourdary-title-color);
+    top: 20px;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid var(--fourdary-title-color);
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+padding: 0;
+transition: border-color var(--transition-duraction-and-func);
+transition-property: transform;
+}
