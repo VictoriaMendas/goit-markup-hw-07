@@ -1,21 +1,16 @@
+ @media screen and (min-width: 768px) { 
+  .container { max-width: 1199px; } 
+  } 
+  @media screen and (min-width:768px) {
 
-
-
-
-/* /@media screen and (min-width: 768px), (max-width: 1199px) { */
-.header-link {
-    display: block;
+adress {
+  margin-left: 120px;
 }
-}
 
-
-
-   .header-shine {
+     .header-shine {  
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 16px;
-width: 768px;
-height: 72px;
-left: 0px;
-top: 0px;
+
 }
+  }
