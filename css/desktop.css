@@ -1,6 +1,71 @@
 @media screen and (min-width: 1200px) {
-   .container { max-width: 1158px; } 
-  }
-.header {
-   flex-direction: row;
+   .conteiner { max-width: 1166px; }
+   .section {
+      padding: 120px 0;
+   } 
+   .header-adress {
+flex-direction: row;
+gap: 40px;
+
+ }
+ .header-link {
+   font-size: 16px;
+line-height: calc(24 / 16);
+ }
+ .header-navigation {
+   margin-right: auto;
+ }
+ .item {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  url(../images/hero-desktop.jpg);
+  padding: 188px 0;
 }
+.item-text {
+   margin-bottom: 48px;
+   
+}
+.hero-icon-shadow {
+   display: block;
+}
+.cont-hero {
+   gap: 24px;
+}
+.hero-item {
+max-width: 264px;
+}
+.hero-icon-shadow {
+   display: flex;
+}
+.hero-name {
+   font-weight: 500;
+font-size: 20px;
+line-height: calc(24 / 20);
+}
+.card-conteiner {
+   display: flex;
+margin-left: auto;
+}
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+ screen and (min-resolution: 192dpi) and (min-width: 768px),
+ screen and (min-resolution: 2dppx) and (min-width: 768px) {
+
+ .item {
+  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+   url(../images/hero-desktop@2x.jpg);
+ }
+
+ }
+ /* .img {
+  background-color: #fff,
+   url(../images/img-jpg-1.jpg), url(../images/img-jpg-2.jpg), url(../images/img-jpg-3.jpg);
+ }
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+ screen and (min-resolution: 192dpi) and (min-width: 768px),
+ screen and (min-resolution: 2dppx) and (min-width: 768px) {
+
+ .img {
+  background-color: #fff,
+   url(../images/computer@2x.jpg), url(../images/phone@2x.jpg), url(../images/hand-phone@2x.jpg);
+ }
+} */

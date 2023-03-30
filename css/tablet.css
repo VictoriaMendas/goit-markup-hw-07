@@ -1,16 +1,65 @@
  @media screen and (min-width: 768px) { 
-  .container { max-width: 1199px; } 
-  } 
-  @media screen and (min-width:768px) {
+  .conteiner { max-width: 768px; } 
+   
+ .mobile-menu {
+  display: none;
+ }
+ .mobile-menu-open {
+  display: none;
+ }
+ .header-adress {
+flex-direction: column;
+gap: 12px;
+ }
+ .item {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  url(../images/hero-tablet.jpg.jpg);
+  
+}
+.item-text {
+  font-size: 56px;
+line-height: calc(60 / 56);
+width: 496px;
+margin-bottom: 36px;
+}
+.cont-hero {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 72px 24px;
+}
+.hero-item {
+  max-width: 356px;
+}
+.hero-name {
+  text-align: left;
+}
+.team-conteiner {
 
-adress {
-  margin-left: 120px;
+ 
+}
+.card-conteiner {
+  flex-wrap: wrap;
+  gap: 64px 24px;
+}
+.team {
+
+}
 }
 
-     .header-shine {  
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 16px;
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+ screen and (min-resolution: 192dpi) and (min-width: 768px),
+ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
+ .item {
+  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+   url(../images/hero-tablet.jpg@2x.jpg);
+ }
+ 
+ }
+ @media screen and (max-width: 1199px) {
+.img {
+  display: none;
 }
-  }
+} 
+
+
