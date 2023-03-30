@@ -1,5 +1,5 @@
 @media screen and (min-width: 1200px) {
-   .conteiner { max-width: 1166px; }
+   .conteiner { max-width: 1158px; }
    .section {
       padding: 120px 0;
    } 
@@ -44,7 +44,40 @@ line-height: calc(24 / 20);
 .card-conteiner {
    display: flex;
 margin-left: auto;
+flex-wrap: nowrap;
 }
+.custom-link {
+   max-width: 168px;
+ }
+ .cuctomers {
+   padding: 120px 0;
+ }
+ .custom-list {
+   gap: 24px;
+   flex-wrap: nowrap;
+ }
+ .footer {
+   padding: 100px 0;
+ }
+ footer .conteiner {
+   max-width: 1158px;
+   gap: 0;
+   flex-wrap: nowrap;
+ }
+ .footer-website {
+   margin-right: 120px;
+ }
+ .footer-input-subscribe {
+   margin-left: 80px;
+ }
+ .input-footer {
+   max-width: 453px;
+   
+ }
+ .modal {
+   max-height: 584px;
+
+ }
   }
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
  screen and (min-resolution: 192dpi) and (min-width: 768px),

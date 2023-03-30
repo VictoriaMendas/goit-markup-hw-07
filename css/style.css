@@ -427,7 +427,7 @@ border-style: 1px solid #000000;
 
 /*------Team------*/
 .team {
-  font-size: 36;
+  font-size: 36px;
   line-height: calc(40 / 36);
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -438,7 +438,7 @@ margin-bottom: 72px;
 }
 .team-section {
   background-color: var(--background-secondary-color);
-  padding: var(--basic-space) 0;
+  padding: 96px 0;
 border-radius: 0px 0px 4px 4px;
 }
 
@@ -501,13 +501,13 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 .card-conteiner {
   display: flex;
-gap: var(--basic-size);
+gap: 72px;
 
 }
 /*----Customers----*/
 .cuctomers {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
  
 }
 .custom-link:is(:hover, :focus){
@@ -515,10 +515,9 @@ gap: var(--basic-size);
   border-color: var(--background-color);
 }
 .custom-link {
-  flex-wrap: wrap;
   justify-content: center;
   border-radius: 4px;
-  width: 168px;
+  width: 190px;
   height: 88px;
   display: flex;
   align-items: center;
@@ -540,10 +539,11 @@ margin-bottom: 72px;
 }
 .custom-list {
   display: flex;
-  gap: var(--basic-size);
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
+  gap: 72px 16px;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
 }
 .custom-icon {
   box-sizing: border-box;
@@ -552,10 +552,14 @@ padding: 0px;
 /*------Footer------*/
 footer {
   background: var(--main-title-color);
-  padding: 100px 0;
+  padding: 96px 0;
 }
 footer .conteiner {
 display: flex;
+flex-direction: column;
+gap: 72px;
+justify-content: center;
+align-items: center;
 }
 
 .logo-color {
@@ -573,7 +577,6 @@ display: flex;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--fourdary-title-color);
-  width: 264px;
   margin-top: 16px;
 }
 .footer-social-item {
@@ -587,11 +590,11 @@ margin-right: 16px;
 flex-grow: 1;
 }
 .footer-socialmedia  {
- margin-left: 120px;
+text-align: center;
 
 }
 .footer-website {
-
+text-align: center;
 }
 .footer-social-link {
    display: flex;
@@ -618,6 +621,8 @@ margin-bottom: 16px;
 }
 .input-footer {
   display: flex;
+  flex-direction: column;
+width: 100%;
 }
 .subscribe-label {
   font-size: 16px;
@@ -627,28 +632,28 @@ margin-bottom: 16px;
   margin-bottom: 16px;
 }
 .footer-input-subscribe {
-
-  margin-left: auto;
+text-align: center;
   transition: box-shadow var(--transition-duraction-and-func);
+  width: 100%;
 }
 .footer-input-subscribe:is(:hover, :focus) {
 box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .input-email {
-  width: 264px;
+  width: 100%;
   height: 40px;
   border: 1px solid var(--thirdary-title-color);
 background-color: var(--main-title-color);
     border-radius: 4px;
  padding: 8px 0 8px 16px;
    outline: transparent;
-   margin-bottom: 4px;
    font-size: 12px;
 line-height: 2;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 color: var(--thirdary-title-color);
+margin-bottom: 16px;
 
 }
 
@@ -656,7 +661,8 @@ color: var(--thirdary-title-color);
   color: var(--thirdary-title-color);
   background-color: var(--back-color-title);
   padding: 8px 16px 8px 24px;
-  margin-left: 24px;
+ margin-left: auto;
+ margin-right: auto;
 flex-direction: row;
 border: none;
 border-radius: 4px;
@@ -666,7 +672,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-
+max-width: 165px;
 }
 .social-input-link {
 }
@@ -800,7 +806,8 @@ transition: opacity var(--transition-duraction-and-func), visibility var(--trans
   top: 50%;
   left: 50%;
  transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  width: 95%;
+  height: 100%;
   background-color: #fcfcfc;
   padding: 72px 24px 24px;
   margin: 0 auto;
@@ -950,7 +957,10 @@ resize: none;
    transition: color var(--transition-duraction-and-func);
   }
   .modal-form-desk {
- 
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+
   }  
 
 .modal-form-custom-checkbox {
@@ -970,7 +980,7 @@ resize: none;
   align-items: center;
   opacity: 0;
   transition: color var(--transition-duraction-and-func), box-shadow var(--transition-duraction-and-func); */
-/* }
+ }
 .modal-form-option-label {
   display: flex;
   align-items: center;
@@ -990,4 +1000,4 @@ margin-bottom: 24px;
 .modal-form-checkbox:checked + .modal-form-custom-checkbox .modal-form-icon-checkbox {
   opacity: 1;
   fill: var(--background-secondary-color);
-} */ */
+} 

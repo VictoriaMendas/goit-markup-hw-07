@@ -1,5 +1,5 @@
 @media screen and (min-width: 480px) {
-  .container { 
+  .conteiner { 
   max-width: 428px; 
   } 
   .contact-link-phone {
@@ -27,25 +27,18 @@
       flex-direction: column;
       align-items: center;
       display: flex;
-      padding: 0 96px 82px;
     
     }
-    .team {
-      font-size: 14px;
-      align-items: center;
-      
-    }
   .custom-list {
- max-width: 396px;
-   padding: 96px 16px;
+    flex-direction: row;
   }
-  .custom-name {
-    font-size: 24px;
-  margin: auto;
-  }
-  .custom-link {
-   
-  }
+.footer-website {
+  max-width: 268px;
+}
+.modal {
+  max-width: 392px;
+  min-height: 586px;
+}
   }
   @media screen and (max-width: 1199px) {
 .hero-icon-shadow {

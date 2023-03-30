@@ -33,16 +33,52 @@ margin-bottom: 36px;
 .hero-name {
   text-align: left;
 }
-.team-conteiner {
-
- 
-}
 .card-conteiner {
   flex-wrap: wrap;
   gap: 64px 24px;
+  justify-content: center;
 }
-.team {
+.custom-list {
+  gap: 72px 24px;
+  flex-direction: row;
+}
+.custon-link {
+  max-width: 168px;
+}
+footer .conteiner {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 72px 24px;
+  justify-content: start;
+  max-width: 552px;
+}
+.footer-website {
+  text-align: left;
+  max-width: 264px;
+} 
+.footer-socialmedia {
+text-align: left;
+}
+.input-email {
+  max-width: 264px;
+  margin-bottom: 0;
 
+}
+.input-footer {
+  flex-direction: row;
+}
+.btn-input-footer {
+  margin-left: 24px;
+  max-height: 40px;
+  margin-right: 0;
+}
+.footer-input-subscribe {
+  text-align: left;
+}
+.modal {
+  max-width: 408px;
+ 
 }
 }
 
